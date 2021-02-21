@@ -1,5 +1,5 @@
 .newContainer{
-  max-width: 400px;
+  max-width: 500px;
   margin: 5px auto;
   padding: 5px;
   text-align: center;
@@ -18,4 +18,10 @@
   color: black;
   text-align: center;
   text-decoration: none;
+}
+
+@media (max-width: 400px) {
+  .newContainer {
+    min-width: 400px;
+  }
 }
