@@ -1,0 +1,42 @@
+
+.homeContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5px 15px;
+  background: gray;
+}
+.itemContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.listItem {
+  list-style-type: none;
+  margin: 20px auto;
+}
+.btnsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.deleteBtn {
+  border-radius: 15px;
+  background-color: white;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+.btn {
+  border-radius: 5px;
+  background-color: white;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media (max-width: 400px) {
+  .homeContainer {
+    min-width: 400px;
+  }
+}

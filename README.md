@@ -1,0 +1,1 @@
+simple solution to display linear gradient of two colors  
